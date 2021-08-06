@@ -1,0 +1,160 @@
+body, html{
+    height: 100%
+}
+.bg{
+    background-image: url(ps5.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+body{
+    background-image: url(ps5.jpg);
+    background-color: black;
+}
+
+
+
+#nav{
+    font-family: Helvetica;
+    background-color: darkblue;
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+}
+
+
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+}
+ 
+#ps {
+    width: 50px;
+}
+
+#psn {
+    width: 50px;
+}
+
+#textss{
+    display: flex;
+    font-size: 20px;
+}
+
+#button{
+    display:flex;
+    align-items:center;
+    justify-content: left;
+    font-size: 20px;
+}
+
+#column2 {
+    justify-content: right;
+    font-size: 20px;
+}
+
+#GOW{
+    display: flex;
+    justify-content: center;
+    width:300px;
+    height:300px;
+}
+#texts{
+    display: flex;
+    font-size: 20px;
+}
+
+#button2{
+    display:flex;
+    align-items:center;
+    justify-content: left;
+    font-size: 20px;
+}
+
+#column3 {
+    justify-content: right;
+    font-size: 20px;
+}
+
+#horizon1{
+    display: flex;
+    justify-content: center;
+    width:300px;
+    height:300px;
+}
+#textsss{
+    display: flex;
+    font-size: 20px;
+}
+
+#buttion{
+    display:flex;
+    align-items:center;
+    justify-content: left;
+    font-size: 20px;
+}
+
+#column1 {
+display: flex;
+    justify-content: right;
+    font-size: 20px;
+}
+
+#rocket_league{
+    display: flex;
+    justify-content: center;
+    width:300px;
+    height:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1030px){
+    h1{
+        background-color: red;
+
+    }
+    h2{
+        color: red;
+    }
+    p{
+        font-size:120px;
+    }
+    .card_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width:50%;
+    }
+}
+
+@media(max-width:530px){
+ h1{   background-color: blue;
+
+}
+p{
+    font-size: 150%;
+}
+}
+.card{
+    width:80%;
+}
