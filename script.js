@@ -29,16 +29,17 @@ button.addEventListener('click', toggle)
  const cwontentDiv = document.querySelector('#textss');
  const bwutton = document.querySelector('#button');
 
- function toggle() {
+ function dog() {
+     
      if (visibilityGOWState == 'hidden') {
          visibilityGOWState = 'visible';
      } else {
          visibilityGOWState = 'hidden';
      }
-          contentDiv.style.visibility = visibilityGOWState;
+          cwontentDiv.style.visibility = visibilityGOWState;
 }
 
-bwutton.addEventListener('click', toggle)
+bwutton.addEventListener('click', dog)
 
 
 
@@ -46,16 +47,16 @@ bwutton.addEventListener('click', toggle)
   const csontentDiv = document.querySelector('#texts');
  const bsutton = document.querySelector('#button2');
 
- function toggle() {
+ function cat() {
      if (visibilityHState == 'hidden') {
          visibilityHState = 'visible';
      } else {
          visibilityHState = 'hidden';
      }
-     contentDiv.style.visibility = visibilityHState;
+     csontentDiv.style.visibility = visibilityHState;
 }
 
- bsutton.addEventListener('click', toggle)
+ bsutton.addEventListener('click', cat)
 
 
 
