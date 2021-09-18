@@ -1,10 +1,7 @@
-body{
-    background-image: url(ps5.jpg);
-    background-color: black;
-}
-a{
-    text-decoration: none;
-}
+body{background-image: url(ps5.jpg);}
+
+a{text-decoration: none;}
+
 #buttion{
     background-color: rgb(17, 216, 216);
     padding:35px;
@@ -39,30 +36,25 @@ a{
     font-family: Helvetica;
     background-color: rgb(29, 29, 170);
     justify-content: space-around;
-    font-size: 32px;
-    padding: 5px;
     display: flex;
-   }
-#ps {
-    width: 100px;
 }
-#ps:hover{
-    transform: scale(1.1);
-}
+#ps {width: 100px;}
+
+#ps:hover{transform: scale(1.1);}
+
 #home{
     color: aliceblue;
    font-size: 50px;
 }
-#home:hover{
-    transform: scale(1.1);
-}
+#home:hover{transform: scale(1.1);}
+
 #psn{
     color: aliceblue;
     font-size: 50px;
 }
-#psn:hover{
-    transform: scale(1.1);
-}
+
+#psn:hover{transform: scale(1.1);}
+
 #GOW{
     display: flex;
     justify-content: center;
@@ -75,15 +67,13 @@ a{
     width:500px;
     height:400px;
 }
-#textsss>p{
-font-size: 30px;
-}
-#textss>p{
-font-size: 30px;
-}
-#texts>p{
-font-size: 30px;
-}
+
+#textsss>p{font-size: 30px;}
+
+#textss>p{font-size: 30px;}
+
+#texts>p{font-size: 30px;}
+
 #rocket_league{
     display: flex;
     justify-content: center;
