@@ -56,13 +56,13 @@ a{text-decoration: none;}
 #psn:hover{transform: scale(1.1);}
 
 #GOW{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     width:500px;
     height:400px;
 }
 #horizon1{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     width:500px;
     height:400px;
@@ -75,7 +75,7 @@ a{text-decoration: none;}
 #texts>p{font-size: 30px;}
 
 #rocket_league{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     width:500px;
     height:400px;
