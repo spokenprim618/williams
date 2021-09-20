@@ -1,12 +1,14 @@
-body{background-image: url(ps5.jpg);}
-
+body{
+    background-image: url(ps5.jpg);
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
 a{text-decoration: none;}
 
 #buttion{
     background-color: rgb(17, 216, 216);
-    padding:35px;
+    padding:10px;
     transition: all .2s ease-in-out; 
-    font-size: 20px;
 }
 #buttion:hover {
     transform: scale(1.1);
@@ -14,9 +16,8 @@ a{text-decoration: none;}
 }
 #button{
     background-color: rgb(17, 216, 216);
-    padding:35px;
+    padding:10px;
     transition: all .2s ease-in-out; 
-    font-size: 20px;
 }
 #button:hover{
     transform: scale(1.1);
@@ -24,9 +25,8 @@ a{text-decoration: none;}
 }
 #button2{
     background-color: rgb(17, 216, 216);
-    padding:35px;
+    padding:10px;
     transition: all .2s ease-in-out; 
-    font-size: 20px;
 }
 #button2:hover{
     transform: scale(1.1);
@@ -38,19 +38,19 @@ a{text-decoration: none;}
     justify-content: space-around;
     display: flex;
 }
-#ps {width: 100px;}
+#ps {width: 50px;}
 
 #ps:hover{transform: scale(1.1);}
 
 #home{
     color: aliceblue;
-   font-size: 50px;
+   font-size: 25px;
 }
 #home:hover{transform: scale(1.1);}
 
 #psn{
     color: aliceblue;
-    font-size: 50px;
+    font-size: 25px;
 }
 
 #psn:hover{transform: scale(1.1);}
@@ -58,27 +58,27 @@ a{text-decoration: none;}
 #GOW{
     display: inline-flex;
     justify-content: center;
-    width:500px;
-    height:400px;
+    width:150px;
+    height:150px;
 }
 #horizon1{
     display: inline-flex;
     justify-content: center;
-    width:500px;
-    height:400px;
+    width:150px;
+    height:150px;
 }
 
-#textsss>p{font-size: 30px;}
+#textsss>p{font-size: 15px;}
 
-#textss>p{font-size: 30px;}
+#textss>p{font-size: 15px;}
 
-#texts>p{font-size: 30px;}
+#texts>p{font-size: 15px;}
 
 #rocket_league{
     display: inline-flex;
     justify-content: center;
-    width:500px;
-    height:400px;
+    width:150px;
+    height:150px;
 }
 /* @media(max-width:1030px){
     h1{
